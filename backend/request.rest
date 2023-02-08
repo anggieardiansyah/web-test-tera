@@ -1,0 +1,39 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/1
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "nama" : "Dimas Rama",
+    "password": "12342228"
+}
+
+###
+PATCH  http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+    "nama" : "Anggie Ardiansyah",
+    "password": "12345678"
+}
+
+
+###
+DELETE http://localhost:5000/users/2
+
+
+###
+GET http://localhost:5000/products
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "nama" : "Dimas Rama",
+    "password": "12342228"
+}
